@@ -1,0 +1,27 @@
+{
+  "name": "sotran-app-pedagio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericktanida-dev/sotran-app-pedagio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericktanida-dev/sotran-app-pedagio/issues"
+  },
+  "homepage": "https://github.com/ericktanida-dev/sotran-app-pedagio#readme",
+  "devDependencies": {
+    "electron": "^12.0.2",
+    "electron-builder": "^22.10.5"
+  }
+}
